@@ -1,0 +1,47 @@
+
+.landing-container{
+    display: flex;
+    min-height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee2ee;
+    padding: 0 32px;
+    font-family: "Bangers",cursive;
+    flex-wrap: wrap;
+}
+
+.landing-header{
+    font-size: 92px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.typewriter{
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+
+
+.landing-container img{
+    /* height: 400px; */
+    width: 40vw;
+}
+
+@media (max-width:800px){
+    .landing-container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .hero{
+        width: 80vh;
+    }
+    .landing-header{
+        margin-top: 32px;
+        text-align: center;
+
+    }
+    .typewriter{
+        text-align: center;
+    }
+}
